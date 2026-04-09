@@ -27,3 +27,23 @@ You can run the app locally using Streamlit:
 
 ```bash
 streamlit run App.py
+
+Installation
+1. Clone the repository:
+git clone https://github.com/yourusername/Resume-Analyzer.git
+cd Resume-Analyzer
+
+2. Create a virtual environment (optional but recommended):
+python -m venv .venv
+
+3. Activate the virtual environment:
+Windows:
+.venv\Scripts\activate
+Mac/Linux:
+source .venv/bin/activate
+
+4. Install dependencies:
+pip install -r requirements.txt
+
+5. Add your Groq API key in a .env file:
+GROQ_API_KEY=your_api_key_here
